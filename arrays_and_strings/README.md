@@ -59,12 +59,10 @@ This repository categorizes problems by their underlying pattern rather than arb
 
 📊 Complexity Cheat Sheet 
 
-+--------------------------+-----------------+-------------------+------------------------------------------+
-| Operation / Pattern      | Time Complexity | Auxiliary Space   | Key Note                                 |
-+--------------------------+-----------------+-------------------+------------------------------------------+
-| Access / In-Place Update | O(1)            | O(1)              | Direct index reference                   |
-| Prefix Sum Query         | O(1) query      | O(N) or O(1)      | Requires O(N) precomputation             |
-| Hash-Map Lookup          | O(1) average    | O(N)              | Ideal for complement search (e.g. 2-Sum) |
-| In-Place Partition       | O(N)            | O(1)              | Fast/Slow pointer pattern                |
-| Monotonic Stack / Deque  | O(N)            | O(N)              | Each element pushed/popped at most once  |
-+--------------------------+-----------------+-------------------+------------------------------------------+
+| Operation / Pattern | Time Complexity | Auxiliary Space | Key Note |
+| --- | --- | --- | --- |
+| Access / In-Place Update | O(1) | O(1) | Direct index reference |
+| Prefix Sum Query | O(1) query | O(N) or O(1) | Requires O(N) precomputation |
+| Hash-Map Lookup | O(1) average | O(N) | Ideal for complement search (e.g., Two Sum) |
+| In-Place Partition | O(N) | O(1) | Fast/Slow pointer pattern |
+| Monotonic Stack / Deque | O(N) | O(N) | Each element pushed/popped at most once |
