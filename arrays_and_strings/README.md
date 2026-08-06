@@ -57,22 +57,6 @@ This repository categorizes problems by their underlying pattern rather than arb
 
 ---
 
-## 📂 Directory Structure
-
-Solutions are organized by level for clear navigation and structured study:
-
-arrays_and_strings/
-├── 01_fundamentals/          # Index mapping, basic operations, simulation
-├── 02_manipulation/          # In-place modifications, partitioning, merges
-├── 03_prefix_sum/            # Prefix accumulators, hash-map complement lookups
-├── 04_searching_ordering/    # Bitwise operations, index marking, frequency tracking
-├── 05_matrix/                # 2D transformations, spiral iteration, matrix rotations
-├── 06_advanced_patterns/     # Kadane's algorithm, dynamic subarray tracking
-├── 07_interview_mastery/     # Monotonic structures, advanced greedy & two-pointer logic
-└── README.md                 # Branch documentation
-
----
-
 📊 Complexity Cheat Sheet 
 
 +--------------------------+-----------------+-------------------+------------------------------------------+
